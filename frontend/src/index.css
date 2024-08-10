@@ -1,0 +1,21 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root{
+  --bg_white:#f6f6f6;
+  --bg_foreground:#003cff;
+  --text_color:#000;
+  --sec_text_color:#fff;
+  --toogle_bg:#f0ab9d;
+  --toogle_fg:#ffd000;
+}
+[data-theme="dark"]{
+  --bg_white:#000;
+  --bg_foreground:#003cff;
+  --text_color:#fff;
+  --sec_text_color:#000;
+  --toogle_bg:#172e7a;
+  --toogle_fg:#003cff;
+}

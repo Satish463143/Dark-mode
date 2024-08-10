@@ -1,0 +1,22 @@
+.title{
+  text-align: center;
+  color: var(--text_color);
+}
+.title h1{
+    margin-bottom: 30px;
+}
+.title p{
+    background: var(--bg_foreground);
+    display:inline;
+    padding: 20px ;
+    border-radius: 10px;
+    color: var(--sec_text_color);
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
